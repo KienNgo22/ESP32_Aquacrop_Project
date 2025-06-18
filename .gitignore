@@ -8,3 +8,9 @@ soil_moisture_server/adafruit_config.env
 soil_moisture_server/.venv
 env
 .venv
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore local SQLite DB
+weather_server/climate_data/weather.db
